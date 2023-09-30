@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="app ">
-      {user && <Header />}
+      {user && <Header/>}
       {!user ? (
         <Login />
       ) : (

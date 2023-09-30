@@ -86,7 +86,7 @@ const Feed = () => {
           <InputOption
             Icon={CalendarViewDayIcon}
             title="Write article"
-            color="#e06847"
+            color="#e06847 "
           />
         </div>
       </div>

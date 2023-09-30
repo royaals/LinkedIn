@@ -3,7 +3,7 @@ import "./post.css";
 import Avatar from "@mui/material/Avatar";
 import InputOption from "./InputOption";
 import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
-import TextsmsOutlinedIcon from "@mui/icons-material/TextsmsOutlined";
+import TextsmsOutlinedIcon from "@mui/icons-material/TextsmsOutlined"
 import ShareOutlinedIcon from "@mui/icons-material/ShareOutlined";
 
 const Post=forwardRef(({ name, description, message, photoUrl },ref) => {
