@@ -2,11 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./feed.css";
 import {
   Create as CreateIcon,
-  Image as ImageIcon,
-  Subscriptions as SubscriptionsIcon,
-  EventNote as EventNoteIcon,
+ EventNote as EventNoteIcon,
   CalendarViewDay as CalendarViewDayIcon,
 } from "@mui/icons-material";
+import MmsIcon from '@mui/icons-material/Mms';
 import InputOption from "./InputOption";
 import Post from "./Post";
 import {
@@ -82,13 +81,12 @@ const Feed = () => {
           </form>
         </div>
         <div className="feed__inputOptions">
-          <InputOption Icon={ImageIcon} title="Photo" color="#70B5F9" />
-          <InputOption Icon={SubscriptionsIcon} title="Video" color="#E7A33E" />
-          <InputOption Icon={EventNoteIcon} title="Event" color="#C0CBCD" />
+          <InputOption Icon={MmsIcon} title="Media" color="#378fe9" />
+          <InputOption Icon={EventNoteIcon} title="Event" color="#c37d16" />
           <InputOption
             Icon={CalendarViewDayIcon}
             title="Write article"
-            color="#7FC15E"
+            color="#e06847"
           />
         </div>
       </div>

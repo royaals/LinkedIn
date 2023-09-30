@@ -5,7 +5,7 @@ import InputOption from "./InputOption";
 import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
 import TextsmsOutlinedIcon from "@mui/icons-material/TextsmsOutlined";
 import ShareOutlinedIcon from "@mui/icons-material/ShareOutlined";
-import SendOutlinedIcon from "@mui/icons-material/SendOutlined";
+
 const Post=forwardRef(({ name, description, message, photoUrl },ref) => {
   
   return (
@@ -24,7 +24,7 @@ const Post=forwardRef(({ name, description, message, photoUrl },ref) => {
         <InputOption Icon={ThumbUpAltIcon} title="Like" color="gray" />
         <InputOption Icon={TextsmsOutlinedIcon} title="Comment" color="gray" />
         <InputOption Icon={ShareOutlinedIcon} title="Share" color="gray" />
-        <InputOption Icon={SendOutlinedIcon} title="Send" color="gray" />
+        
       </div>
     </div>
   );
