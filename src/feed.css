@@ -24,7 +24,6 @@
 .feed__input> form {
     display: flex;
     width: 100%;
-
 }
 
 .feed__input > form > input {
@@ -47,6 +46,51 @@
 
 .feed__inputOptions{
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;  
+}
+
+@media only screen and (max-width :768px) {
+   .feed{
+        flex :1 ;  
+        margin :0 10 px ; 
+
+   }
+
+   .feed__inputContainer {
+        padding-bottom :15 px ; 
+
+   }
+
+   .feed__input{
+        padding-left :10 px ; 
+
+   }
+
+   .feed__input> form > input {
+        font-weight:bold ;
+
+   }
+}
+
+@media only screen and (max-width :480px) {
+   .feed{
+        flex :1 ;  
+        margin :0 5 px ; 
+
+   }
+
+   .feed__inputContainer {
+        padding-bottom :10 px ; 
+
+   }
+
+   .feed__input{
+        padding-left :5 px ; 
+
+   }
+
+   .feed__input> form > input {
+        font-weight:bold ;
+
+   }
 }

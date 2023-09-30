@@ -1,19 +1,50 @@
 .inputOption{
     display: flex;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 10px;
     color: gray;
-    padding: 10px;
+    padding: 8px;
     cursor: pointer;
-
 }
 
 .inputOption:hover{
     background-color: whitesmoke;
-    border-radius: 10px;
-
+    border-radius: 8px;
 }
 
 .inputOption > h4{
-    margin-left: 5px;
+    margin-left: 4px;
+}
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+    .inputOption{
+        margin-top: 8px;
+        padding: 6px;
+    }
+
+    .inputOption:hover{
+        border-radius: 6px;
+    }
+
+    .inputOption > h4{
+        margin-left: 3px;
+    }
+}
+
+@media only screen 
+and (max-device-width: 767px) {
+    .inputOption{
+        margin-top: 6px;
+        padding: 4px;
+    }
+
+    .inputOption:hover{
+        border-radius: 4px;
+    }
+
+    .inputOption > h4{
+        margin-left: 2px;
+    }
 }

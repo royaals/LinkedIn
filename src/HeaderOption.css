@@ -1,23 +1,56 @@
+
+
 .headerOption{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 20px;
     color: gray;
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .headerOption__title{
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
 }
 
 .headerOption__icon{
     object-fit: contain;
-    height: 30px !important;
-    width: 30px !important;
+    height: 25px !important;
+    width: 25px !important;
 }
 
 .headerOption:hover{
     color: black;
 }
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+    .headerOption{
+        margin-right: 15px;
+    }
+
+    .headerOption__title{
+        font-size: 10px;
+    }
+
+    .headerOption__icon{
+        height: 20px !important;
+        width: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .headerOption {
+      margin-right: 10px;
+    }
+    .headerOption__title {
+      font-size: 10px;
+    }
+    .headerOption__icon {
+      height: 20px !important;
+      width: 20px !important;
+    }
+  }
+  

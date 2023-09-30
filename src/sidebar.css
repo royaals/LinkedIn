@@ -1,18 +1,13 @@
 .sidebar{
-   
-    top: 80px;
-    flex: 0.5;
-    border-radius: 10px;
+    top: 60px;
+    flex: 0.4;
+    border-radius: 8px;
     text-align: center;
     height: fit-content;
-    
-
 }
 
 .sidebar__avatar{
-    margin-bottom: 10px;
-   
-
+    margin-bottom: 8px;
 }
 
 .sidebar__top{
@@ -20,26 +15,24 @@
     flex-direction: column;
     align-items: center;
     border: 1px solid lightgray;
-    
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     background-color: white;
-    padding-bottom: 10px;
-
+    padding-bottom: 8px;
 }
 
 .sidebar__top > img{
-    margin-bottom: -20px;
+    margin-bottom: -15px;
     width:100%;
-    height: 60px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    height: 50px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     object-fit: cover;
 }
 
 .sidebar__stat{
-    margin-top: 10px;
+    margin-top: 8px;
     display: flex;
     justify-content: space-between;
 
@@ -47,22 +40,24 @@
 
 .sidebar__stat > p {
     color: grey;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 600;
 }
 
 .sidebar__top > h4{
     color: grey;
-    font-size: 12px;
-    padding: 10px;
+    font-size: 10px;
+    padding: 8px;
 }
 
 .sidebar__top > h2{
-    font-size: 18px;
+    font-size: 14px;
+
 }
+
 .sidebar__stats{
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 8px;
+    margin-bottom: 8px;
     border: 1px solid lightgrey;
     background-color: white;
     border-left: 0;
@@ -70,48 +65,212 @@
     border-bottom: 0;
 
 }
+
 .sidebar__statNumber {
-    font-weight: bold;
-    color: #0a66c2 !important;
-    margin-left: 60px
+   font-weight:bold; 
+   color:#0a66c2 !important; 
+   margin-left :50px
 }
 
 .sidebar__bottom{
-    text-align: center;
-    padding: 10px;
-    border: 1px solid lightgrey;
-    background-color: white;
-    border-radius: 10px;
-    margin-top: 10px;
+   text-align:center; 
+   padding :8px; 
+   border :1px solid lightgrey; 
+   background-color :white; 
+   border-radius :8px; 
+   margin-top :8px; 
 }
 
 .sidebar__recentItem{
-    display: flex;
-    font-size: 13px;
-    color: grey;
-    font-weight: bolder;
-    cursor: pointer;
-    padding: 5px;
-    margin-bottom: 5px;
+   display:flex; 
+   font-size :11px; 
+   color :grey; 
+   font-weight :bolder; 
+   cursor :pointer; 
+   padding :4px; 
+   margin-bottom :4px; 
    
 }
 
 .sidebar__recentItem:hover {
-   color: whitesmoke;
-   border-radius: 10px;
-   cursor: pointer;
-   color: black;
+   color :whitesmoke; 
+   border-radius :8px; 
+   cursor :pointer; 
+   color :black; 
 }
 
 .sidebar__hash{
-    margin-right: 10px;
-    margin-left: 5px;
+   margin-right :8px; 
+   margin-left :4px; 
     
 }
 
 .sidebar__bottom > p{
-    display: flex;
+   display:flex; 
     
-    font-size: 13px;
-    padding-bottom: 10px;
+   font-size :11px; 
+   padding-bottom :8px; 
+}
+
+
+@media only screen and (max-device-width :768px)  {
+    
+ .sidebar{
+        top :50px; 
+        flex :0.3; 
+        border-radius :6px; 
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-bottom: 20px;
+       margin-top: 10px;
+        
+ }
+
+ .sidebar__avatar{
+        margin-bottom :6px; 
+
+ }
+
+ .sidebar__top{
+        padding-bottom :6px; 
+
+ }
+
+ .sidebar__top > img{
+        margin-bottom :-10px; 
+        height :40px; 
+        
+ }
+
+ .sidebar__stat{
+        margin-top :6px; 
+        
+ }
+
+ .sidebar__stat > p {
+        font-size :9px; 
+        
+ }
+
+ .sidebar__top > h4{
+        font-size :9px; 
+        padding :6px; 
+        
+ }
+
+ .sidebar__top > h2{
+        font-size :12px;
+
+ }
+
+ .sidebar__stats{
+        padding :6px; 
+        margin-bottom :6px;
+
+ }
+
+ .sidebar__statNumber {
+       font-weight:bold ;  
+       color:#0a66c2 !important ;  
+       margin-left :40 px
+ }
+
+ .sidebar__bottom{
+       padding :6 px ;  
+       border-radius :6 px ;  
+       margin-top :6 px ;  
+ }
+
+ .sidebar__recentItem{
+       font-size :9 px ;  
+       padding :3 px ;  
+       margin-bottom :3 px ;  
+
+ }
+ .sidebar__hash{
+       margin-right :6 px ;  
+       margin-left :3 px ; 
+
+ }
+ .sidebar__bottom > p{
+
+       font-size :9 px ;  
+       padding-bottom :6 px ;  
+ }
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar{
+        top: 30px;
+        flex: 0.3;
+        border-radius: 6px;
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        
+    }
+
+    .sidebar__avatar{
+        margin-bottom: 6px;
+    }
+
+    .sidebar__top{
+        padding-bottom: 6px;
+    }
+
+    .sidebar__top > img{
+        margin-bottom: -10px;
+        height: 40px;
+    }
+
+    .sidebar__stat{
+        margin-top: 6px;
+    }
+
+    .sidebar__stat > p {
+        font-size: 9px;
+    }
+
+    .sidebar__top > h4{
+        font-size: 9px;
+        padding: 6px;
+    }
+
+    .sidebar__top > h2{
+        font-size: 12px;
+    }
+
+    .sidebar__stats{
+        padding: 6px;
+        margin-bottom: 6px;
+    }
+
+    .sidebar__statNumber {
+       font-weight:bold; 
+       color:#0a66c2 !important; 
+       margin-left :40px
+    }
+
+    .sidebar__bottom{
+       padding :6px; 
+       border-radius :6px; 
+       margin-top :6px; 
+    }
+
+    .sidebar__recentItem{
+       font-size :9px; 
+       padding :3px; 
+       margin-bottom :3px; 
+   } 
+
+   .sidebar__hash{
+       margin-right :6px; 
+       margin-left :3px; 
+   }
+
+   .sidebar__bottom > p{
+       font-size :9px; 
+       padding-bottom :6px; 
+   }
 }
