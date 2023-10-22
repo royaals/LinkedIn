@@ -1,9 +1,11 @@
-https://linkedin-clone-358df.web.app/
+
 
 
 # LinkedIn Clone
 
 This is a LinkedIn clone built using React, Redux, Firebase, and Material UI.
+
+Hosted on Firebase- https://linkedin-clone-358df.web.app/
 
 ## Setup
 
